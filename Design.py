@@ -10,7 +10,7 @@ def get_img_as_base64(file):
     return base64.b64encode(data).decode()
 
 
-img = get_img_as_base64("C:\\Users\\USER\\Desktop\\Streamlit\\Titanic\\Assets\\deep_blu.jpg")
+img = get_img_as_base64("deep_blu.jpg")
 
 page_bg_img = f"""
 <style>

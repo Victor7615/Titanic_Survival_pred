@@ -11,7 +11,7 @@ import requests
 from io import BytesIO
 from Design import get_img_as_base64
 
-get_img_as_base64("C:\\Users\\USER\\Desktop\\Streamlit\\Titanic\\Assets\\deep_blu.jpg")
+get_img_as_base64("deep_blu.jpg")
 
 
 html_temp= """
@@ -51,7 +51,7 @@ def main():
         ### Datasource
             -https://www.kaggle.com/datasets/yasserh/titanic-dataset""") 
         # Read the CSV file as bytes
-        with open("C:\\Users\\USER\\Desktop\\Streamlit\\Titanic\\titanic.csv", "rb") as f:
+        with open("titanic.csv", "rb") as f:
             csv_data = f.read()
 
         # Create a download button for CSV data

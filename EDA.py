@@ -13,8 +13,8 @@ def load_data(data):
 
 
 def EDA_titanic():
-    data=load_data("C:\\Users\\USER\\Desktop\\Streamlit\\Titanic\\cleaned_titanic.csv")
-    data2=load_data("C:\\Users\\USER\\Desktop\\Streamlit\\Titanic\\titanic.csv")
+    data=load_data("cleaned_titanic.csv")
+    data2=load_data("titanic.csv")
     data.drop("Name",axis=1)
     
     submenu= st.sidebar.selectbox("SubMenu",["Describe","Visualization"])
@@ -23,7 +23,7 @@ def EDA_titanic():
         st.dataframe(data)
         
         with st.expander("Data Type Summary"):
-            
+
             st.dataframe(data.dtypes)
         
         with st.expander("Descriptive Summary"):
