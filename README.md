@@ -32,7 +32,7 @@ The Titanic Survival Prediction Web App is a Streamlit-based application designe
 3. Run the application:
 
     ```
-    streamlit run app.py
+    streamlit run main_app.py
     ```
 
 4. Access the web app in your browser at the provided URL.
