@@ -48,7 +48,7 @@ The Titanic Survival Prediction Web App is a Streamlit-based application designe
    
 3. **ML:**
    - Choose between Logistic Regression and Random Forest models for survival prediction.
-   - Input passenger information to get survival predictions.
+   - Input passenger information to get survival predictions. [Web App Link](https://titanic-survival-pred-victor-emuchay.onrender.com/)
 
 4. **About:**
    - Learn more about the web app, its purpose, and how to use it.
