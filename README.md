@@ -8,6 +8,8 @@ Sure, here's a README for the provided code:
 
 The Titanic Survival Prediction Web App is a Streamlit-based application designed to predict the likelihood of survival for passengers aboard the Titanic. Utilizing machine learning techniques, the app analyzes various input features such as passenger class, sex, age, family relationships, fare, and port of embarkation to provide accurate predictions.
 
+[Prediction Page](web_page.PNG)
+
 ## Features
 
 - **Home:** Provides an introduction to the web app and its functionalities.
