@@ -1,6 +1,3 @@
-Sure, here's a README for the provided code:
-
----
 
 # Titanic Survival Prediction Web App
 
